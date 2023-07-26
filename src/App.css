@@ -1,0 +1,44 @@
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App div {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.App input {
+  margin-top: 10px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+}
+
+.button button {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  width: 40%;
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(255, 162, 162);
+  margin-bottom: 20px;
+}
