@@ -42,3 +42,8 @@ html,
   background-color: rgb(255, 162, 162);
   margin-bottom: 20px;
 }
+
+li {
+  list-style: none;
+  text-decoration: underline;
+}
