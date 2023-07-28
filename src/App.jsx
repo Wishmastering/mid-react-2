@@ -21,7 +21,7 @@ export default function App() {
 
   const handleSubmit = (name, email) => {
     setProfileData((prev) => [...prev, { name, email }]);
-    console.log("Submit Handled");
+    console.log("Submit Handled.");
   };
 
   return (
